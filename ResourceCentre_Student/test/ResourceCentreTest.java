@@ -76,7 +76,7 @@ public class ResourceCentreTest {
         assertEquals("Test that Chromebook arraylist size is 3?", 3, chromebookList.size());
         assertSame("Test that Chromebook is added same as 3rd item of the list?", cb3, chromebookList.get(2));
     }
-	}
+	
 	
 	@Test
 	public void testRetrieveAllCamcorder() {
@@ -189,7 +189,8 @@ assertNotNull("test if there is valid ChromeBook arraylist to loan from", chrome
         assertFalse("Test that non-esiting item is NOT ok to loan?", ok);
     }
 		
-	}
+
+	
 	
 	@Test
 	public void testDoReturnCamcorder() {
